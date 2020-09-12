@@ -1,0 +1,28 @@
+Before change:
+
+> db.class.findOne({"name":"Arun"})
+{
+        "_id" : ObjectId("5f5cce37efcee12933fb6a56"),
+        "name" : "Arun",
+        "age" : 25,
+        "address" : "1st main road tambaram",
+        "city" : "chennai",
+        "favorite teacher" : "Anitha"
+}
+>  
+
+After address updation:
+
+
+> db.class.updateOne({"name":"Arun"},{$set:{"address":"123 abc nagar velachery"}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+> db.class.findOne({"name":"Arun"})
+{
+        "_id" : ObjectId("5f5cce37efcee12933fb6a56"),
+        "name" : "Arun",
+        "age" : 25,
+        "address" : "123 abc nagar velachery",
+        "city" : "chennai",
+        "favorite teacher" : "Anitha"
+}
+> 

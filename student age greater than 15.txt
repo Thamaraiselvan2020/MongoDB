@@ -1,0 +1,58 @@
+> db.class.find({"age":{$gt:15}}).pretty()
+{
+        "_id" : ObjectId("5f5cce37efcee12933fb6a56"),
+        "name" : "Arun",
+        "age" : 25,
+        "address" : "123 abc nagar velachery",
+        "city" : "chennai",
+        "favorite teacher" : "Anitha"
+}
+{
+        "_id" : ObjectId("5f5cce37efcee12933fb6a57"),
+        "name" : "Deepika",
+        "age" : 22,
+        "address" : "2nd main road valasaravakkam",
+        "city" : "chennai",
+        "favorite teacher" : "Ashwini"
+}
+{
+        "_id" : ObjectId("5f5cce37efcee12933fb6a58"),
+        "name" : "Anu",
+        "age" : 25,
+        "address" : "3rd main road thenkarai periyakulam",
+        "city" : "Theni",
+        "favorite teacher" : "Anitha"
+}
+{
+        "_id" : ObjectId("5f5cce37efcee12933fb6a5c"),
+        "name" : "Ganapathy",
+        "age" : 24,
+        "address" : "7th main road ganapathy skills",
+        "city" : "Coimbatore",
+        "favorite teacher" : "Ashwini"
+}
+{
+        "_id" : ObjectId("5f5cce37efcee12933fb6a5d"),
+        "name" : "Abinaya",
+        "age" : 30,
+        "address" : "8th main road valasaravakkam",
+        "city" : "chennai",
+        "favorite teacher" : "Ashwini"
+}
+{
+        "_id" : ObjectId("5f5cce37efcee12933fb6a5f"),
+        "name" : "Tamilvani",
+        "age" : 28,
+        "address" : "9th street bhavani road athani",
+        "city" : "Erode",
+        "favorite teacher" : "Ashwini"
+}
+{
+        "_id" : ObjectId("5f5cce37efcee12933fb6a60"),
+        "name" : "Agalyha",
+        "age" : 22,
+        "address" : "10th main road erode",
+        "city" : "Erode",
+        "favorite teacher" : "Anitha"
+}
+>   

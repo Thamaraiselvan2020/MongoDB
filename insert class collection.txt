@@ -1,0 +1,103 @@
+
+
+1)	Inserting student record into class
+	use mydb
+	show dbs
+	db
+	db.createCollection("class")
+
+db.class.insert([
+   {
+      "name":"Arun",
+      "age":25,
+      "address":"1st main road tambaram",
+      "city":"chennai",
+      "favorite teacher":"Anitha"
+   },
+   {
+      "name":"Deepika",
+      "age":22,
+      "address":"2nd main road valasaravakkam",
+      "city":"chennai",
+      "favorite teacher":"Ashwini"
+   },
+   {
+      "name":"Anu",
+      "age":25,
+      "address":"3rd main road thenkarai periyakulam",
+      "city":"Theni",
+      "favorite teacher":"Anitha"
+   },
+   {
+      "name":"sathyaseelan",
+      "age":10,
+      "address":"4th st 2nd main road old bus stand",
+      "city":"Tiruppur",
+      "favorite teacher":"Anitha"
+   },
+   {
+      "name":"Kumar",
+      "age":10,
+      "address":"5th main road guindy",
+      "city":"chennai",
+      "favorite teacher":"Ashwini"
+   },
+   {
+      "name":"Praveen",
+      "age":08,
+      "address":"6th main road avadi",
+      "city":"chennai",
+      "favorite teacher":"Anitha"
+   },
+   {
+      "name":"Ganapathy",
+      "age":24,
+      "address":"7th main road ganapathy skills",
+      "city":"Coimbatore",
+      "favorite teacher":"Ashwini"
+   },
+   {
+      "name":"Abinaya",
+      "age":30,
+      "address":"8th main road valasaravakkam",
+      "city":"chennai",
+      "favorite teacher":"Ashwini"
+   },
+   {
+      "name":"vinoth",
+      "address":"8th main road medavakkam",
+      "city":"chennai",
+      "favorite teacher":"Anitha"
+   },
+   {
+      "name":"Tamilvani",
+      "age":28,
+      "address":"9th street bhavani road athani",
+      "city":"Erode",
+      "favorite teacher":"Ashwini"
+   },
+   {
+      "name":"Agalyha",
+      "age":22,
+      "address":"10th main road erode",
+      "city":"Erode",
+      "favorite teacher":"Anitha"
+   }
+]")
+BulkWriteResult("{
+   "writeErrors":[
+      
+   ],
+   "writeConcernErrors":[
+      
+   ],
+   "nInserted":11,
+   "nUpserted":0,
+   "nMatched":0,
+   "nModified":0,
+   "nRemoved":0,
+   "upserted":[
+      
+   ]
+})
+>
